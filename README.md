@@ -1,8 +1,8 @@
 # polyglot
 Test speed for different programming languages.
 
-Used docker image: [alexvaitsekhovich/polyglot] (https://cloud.docker.com/repository/docker/alexvaitsekhovich/polyglot)
-
+Used docker image: 
+[alexvaitsekhovich/polyglot](https://cloud.docker.com/repository/docker/alexvaitsekhovich/polyglot)
 
 1. In _run.sh_ define the list of languages you want to test:
 ```
