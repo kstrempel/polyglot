@@ -52,3 +52,6 @@ Rust | .rs
 Scala | .scala
  
 ![Speed test result](https://github.com/alexvaitsekhovich/polyglot/blob/master/img/Speed.png)
+
+
+More information is yet to come
