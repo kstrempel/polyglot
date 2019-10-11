@@ -10,6 +10,8 @@ declare -a langs (<your list>)
 ```
 programm="<your script>"
 ```
+Expected file extensions are lsited below.
+
 
 3. Start with:
 
@@ -17,4 +19,32 @@ programm="<your script>"
 sh run.sh
 ```
 
-More description is yet to come
+
+File extensions for languages:
+
+language | File extension
+------------ | -------------
+ADA | .adb
+C | .c
+Clojure | .clj
+C# | .cs
+Elixir | .ex
+F# | .fs
+Go | .go
+Groovy | .groovy
+Java | .java
+Julia | .jl
+Kotlin | .kt
+Lua | .lua
+Nim | .nim
+Node.js | .js
+OCaml | .ml
+Pascal | .p
+Perl | .pl
+PHP | .php
+Python | .py
+R | .R
+Ruby | .rb
+Rust | .rs
+Scala | .scasla
+ 
