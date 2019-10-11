@@ -1,6 +1,0 @@
-x86_64-linux-gnu-gcc-7 -c iterations.adb
-x86_64-linux-gnu-gnatbind-7 -x iterations.ali
-x86_64-linux-gnu-gnatlink-7 iterations.ali -o iterations
-Result: 2.86156704972800000000E+12
-Time elapsed : 69.517767000 seconds
-
