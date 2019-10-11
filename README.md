@@ -11,7 +11,7 @@ declare -a langs (<your list>)
 programm="<your script>"
 ```
 
-3 Start with:
+3. Start with:
 
 ```
 sh run.sh
