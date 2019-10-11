@@ -46,5 +46,5 @@ Python | .py
 R | .R
 Ruby | .rb
 Rust | .rs
-Scala | .scasla
+Scala | .scala
  
