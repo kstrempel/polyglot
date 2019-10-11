@@ -8,7 +8,7 @@ start = datetime.datetime.utcnow()
 
 for v in vals:
   psum = 0.0
-  for x in range(10000000):
+  for x in range(1000000):
     psum += (x+1)*37.0/12347.0 + v*61.0/101.0;
   total += psum/53.0;
 

@@ -11,7 +11,7 @@ my $start = Time::HiRes::gettimeofday();
 foreach my $v (@vals) {
 	my $psum = 0.0;
 
-	for (my $x=1; $x <= 10000000; $x++) {
+	for (my $x=1; $x <= 1000000; $x++) {
 		$psum += $x*37.0/12347.0 + $v*61.0/101.0;
 	} 
 

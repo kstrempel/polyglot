@@ -16,7 +16,7 @@ begin
 	begin
 		psum := 0;
 		
-		for x := 1 to 10000000 do
+		for x := 1 to 1000000 do
 		begin
 			psum := psum + x*37/12347.0 + v*61/101.0;
 		end;

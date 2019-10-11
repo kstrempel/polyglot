@@ -9,7 +9,7 @@ let main argv =
 
     for v in vals do
         let mutable psum = 0.0
-        for x = 1 to 10000000 do
+        for x = 1 to 1000000 do
             psum <- psum + (float x) * 37.0/12347.0 + v * 61.0/101.0
 
         total <- total + psum/53.0

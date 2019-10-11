@@ -14,7 +14,7 @@ let start = epochTime()
 for i in 0..999:
     var psum = 0.0;
 
-    for x in 1..10000000:
+    for x in 1..1000000:
         psum += float(x)*37/12347 + vals[i]*61/101;
 
     total += psum/53.0;

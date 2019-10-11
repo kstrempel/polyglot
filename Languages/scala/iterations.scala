@@ -8,7 +8,7 @@ object iterations extends App {
     for ( v <- vals ) {
         var psum = 0.0;
 
-        for( x <- 1 to 10000000) {
+        for( x <- 1 to 1000000) {
             psum += x*37.0/12347.0 + v*61.0/101.0;
         } 
 

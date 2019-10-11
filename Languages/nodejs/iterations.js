@@ -9,7 +9,7 @@ let total  = 0.0
 for (var i = 0; i < vals.length; i++) {
 	psum = 0.0
 
-	for (x = 1.0; x <= 10000000; x++) {
+	for (x = 1.0; x <= 1000000; x++) {
 	    psum += x*37.0/12347.0 + vals[i]*61.0/101.0;
 	}
 

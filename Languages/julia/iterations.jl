@@ -10,7 +10,7 @@ for v in vals
 	global total
 	global psum = 0.0
 
-	for x in 1:10000000
+	for x in 1:1000000
 	    psum += x*37.0/12347.0 + v*61.0/101.0
 	end
 

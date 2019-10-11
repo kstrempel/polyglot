@@ -9,7 +9,7 @@ starting = Time.now
 vals.each { |v|
 	psum = 0.0
 
-	for x in 1..10000000 do
+	for x in 1..1000000 do
 	    psum += x*37.0/12347.0 + v*61.0/101.0
 	end
 

@@ -7,7 +7,7 @@ start_time <- Sys.time()
 for (v in vals) {
 	psum <- 0.0
 
-	for (x in 1:10000000) {
+	for (x in 1:1000000) {
         psum <- psum + x*37.0/12347.0 + v*61.0/101
     }
 

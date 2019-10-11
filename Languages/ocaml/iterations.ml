@@ -5,7 +5,7 @@ let rec get_psum v psum x =
 	else get_psum (v) (psum +. float x *. 37.0 /. 12347.0 +. v *. 61.0 /. 101.0) (x - 1);;
 
 let mainCalc () =
-	print_string (Printf.sprintf "Result: %.10f\n" (List.fold_left (fun acc v -> acc +. (get_psum v 1.0 10000000) /. 53.0 ) 0.0 vals));;
+	print_string (Printf.sprintf "Result: %.10f\n" (List.fold_left (fun acc v -> acc +. (get_psum v 1.0 1000000) /. 53.0 ) 0.0 vals));;
 
 let _t () = ()
 

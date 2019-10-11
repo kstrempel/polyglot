@@ -18,7 +18,7 @@ begin
 
     for i in 1..1000 loop
     	psum := 0.0;
-	    for x in 1..10000000 loop
+	    for x in 1..1000000 loop
  			psum := psum + float(x)*37.0/12347.0 + vals(i)*61.0/101.0;
 	   end loop;
        total := total + psum/53.0;

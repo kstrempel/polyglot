@@ -11,7 +11,7 @@ internal object iterations {
         for (i in vals.indices) {
             var psum = 0.0
 
-            for (x in 1..10000000) {
+            for (x in 1..1000000) {
                 val t = x * 37.0 / 12345.0 + vals[i] * 61.0 / 100.0
                 psum += t
             }

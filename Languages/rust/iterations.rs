@@ -9,7 +9,7 @@ fn main() {
 
     for v in _vals {
         let mut _psum = 0.0;
-        for x in 0..10000000 {
+        for x in 0..1000000 {
             _psum = _psum + (x+1) as f64 *37.0/12347.0 + v*61.0/101.0;
         }
 

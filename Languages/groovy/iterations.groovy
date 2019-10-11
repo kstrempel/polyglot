@@ -8,7 +8,7 @@ double total = 0.0;
 for (v in vals) {
     double psum = 0.0;
 
-    for(int x in 1..10000) { 
+    for(int x in 1..1000000) { 
         psum += x*37.0/12347.0 + v*61.0/101.0;
     }
     

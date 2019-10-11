@@ -6,7 +6,7 @@ start_time = os.time()
 for i, v in ipairs(vals) do
 	psum = 0.0;
 
-	for x = 1, 10000000 do
+	for x = 1, 1000000 do
 	    psum = psum + x*37.0/12347.0 + v*61.0/101.0;
 	end 
 

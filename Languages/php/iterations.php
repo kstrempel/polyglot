@@ -10,7 +10,7 @@ $time_start = microtime_float();
 foreach ($vals as $v) {
 	$psum = 0;
 
-	for ($x = 1; $x <= 10000000; $x++) {
+	for ($x = 1; $x <= 1000000; $x++) {
 		$psum += $x*37.0/12347.0 + $v*61.0/101.0;
 	} 
 

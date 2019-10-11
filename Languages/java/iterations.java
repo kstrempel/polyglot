@@ -13,7 +13,7 @@ class iterations{
 		for (int i = 0; i < vals.length; i++) {
 			double psum = 0.0;
 
-			for (int x = 1; x <= 10000000; x++) {
+			for (int x = 1; x <= 1000000; x++) {
 				psum += x*37.0/12347.0 + vals[i]*61.0/101.0;
 			} 
 

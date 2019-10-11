@@ -15,7 +15,7 @@ namespace iterations
 			foreach (double v in vals)
 			{
 				double psum = 0.0;
-				for (int x = 1; x <= 10000000; x++)
+				for (int x = 1; x <= 1000000; x++)
 				{
 					psum += (double)x * 37.0/12347.0 + v * 61.0/101.0;
 				}
