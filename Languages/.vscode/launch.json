@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - iterations",
+            "request": "launch",
+            "mainClass": "iterations"
+        }
+    ]
+}
