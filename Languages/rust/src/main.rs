@@ -17,9 +17,8 @@ fn main() {
     }
 
     let _duration_seconds = start.elapsed().as_millis() as f64/1000.0;
-    
+
     println!("Result: {:?}", _total);
 
     println!("Time elpased : {:?} seconds", _duration_seconds);
-
 }
